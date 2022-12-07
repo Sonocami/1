@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.header{
+ width:100%;/*横幅いっぱい*/
+ height:50px;/*縦幅50px*/
+ background-color:red;/*背景色red*/
+}
+.main-visual{
+  width:100%;/*横幅いっぱい*/
+  height:500px;/*縦幅500px*/
+  background-color:orange;/*背景色オレンジ*/
+}
+
+.main{
+  width:960px;/*横幅いっぱい*/
+  /*background-color, height指定解除*/
+  display:flex;/*Flexboxの利用*/
+  justify-content:center;/*子要素の横並び・中央よせ*/
+  margin:0 auto;/*左右に余白がないとできない*/
+
+}
+
+.main-left{
+  width:230px;/*横幅230px*/
+  height:1400px;/*縦幅1400px*/
+  background-color:lightgreen;/*背景色黄緑*/
+}
+
+.main-middle{
+   width:500px;/*横幅230px*/
+   height:1400px;/*縦幅1400px*/
+   background-color:green;/*背景色緑*/
+}
+
+.main-right{
+   width:230px;
+   height:1400Px;/*縦幅1400px*/
+   background-color:lightgreen;/*背景色黄緑*/
+}
+
+.footer{
+  width:100%;
+  height:100px;
+  background-color:blue;/*背景色青*/
+}
